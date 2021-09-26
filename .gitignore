@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
 # testing
 /coverage
 

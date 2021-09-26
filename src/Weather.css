@@ -1,0 +1,111 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  height: 85vh;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.flex-container > div {
+  color: white;
+}
+
+.flex-container-visualization {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 60%;
+}
+
+.bg-img1 {
+  background-size: cover;
+}
+
+.flex-container-temp {
+  font-size: 15vh;
+  flex: 1;
+  padding: 15px;
+  background: rgba(46, 53, 56, 0.5);
+  backdrop-filter: blur(5px);
+  line-height: 90px;
+}
+
+.flex-container-place {
+  text-align: center;
+  background: rgba(46, 53, 56, 0.5);
+  backdrop-filter: blur(5px);
+  font-size: 65px;
+}
+
+.flex-container-other {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  line-height: 60px;
+}
+
+.flex-container-time-day-date {
+  text-align: center;
+  background: rgba(46, 53, 56, 0.5);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-time {
+  flex: 1;
+}
+
+.flex-container-day {
+  flex: 1;
+}
+
+.flex-container-date {
+  flex: 1;
+}
+
+.flex-container-icon-name {
+  background: rgba(46, 53, 56, 0.5);
+  backdrop-filter: blur(5px);
+  flex: 1;
+  line-height: 60px;
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.flex-container-weatherdetails {
+  display: flex;
+  flex-direction: column;
+  background: rgba(17, 56, 71, 0.5);
+  width: 40%;
+}
+
+.flex-container-heading {
+  flex: 1;
+  font-size: 80px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.flex-container-details {
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+}
+
+.flex-container-detailname {
+  flex: 1;
+  font-size: 35px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.flex-container-detailvalue {
+  flex: 1;
+  font-size: 35px;
+  text-align: center;
+  line-height: 60px;
+}
