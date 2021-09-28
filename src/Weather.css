@@ -3,7 +3,7 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding: 16px;
+  padding: 20px;
   height: 85vh;
   justify-content: space-around;
   background-color: white;
