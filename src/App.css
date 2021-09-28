@@ -1,11 +1,11 @@
 button {
   margin: auto;
-  display: block;
-  margin-top: 20px;
+  margin-top: block;
+  margin-left: 20px;
   margin-bottom: 20px;
   padding: 20px 10px;
-  width: 51%;
-  font-size: 23px;
+  width: 98%;
+  font-size: 40px;
   font-weight: bold;
   border-radius: 7px;
   background-color: #71a3ca;

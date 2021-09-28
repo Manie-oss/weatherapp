@@ -1,13 +1,10 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding: 30px;
+  padding: 20px;
   height: 85vh;
   justify-content: space-around;
   background-color: white;
-}
-
-.flex-container > div {
   color: white;
 }
 
@@ -15,14 +12,14 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  width: 60%;
+  flex-basis: 60%;
 }
 
 .bg-img1 {
   background-size: cover;
 }
 
-.flex-container-temp {
+.temp {
   font-size: 15vh;
   flex: 1;
   padding: 15px;
@@ -31,41 +28,39 @@
   line-height: 90px;
 }
 
-.flex-container-place {
-  text-align: center;
-  background: rgba(46, 53, 56, 0.5);
-  backdrop-filter: blur(5px);
-  font-size: 65px;
-}
-
-.flex-container-other {
+.other {
   display: flex;
   flex: 1;
   flex-direction: column;
   line-height: 60px;
-}
-
-.flex-container-time-day-date {
-  text-align: center;
   background: rgba(46, 53, 56, 0.5);
   backdrop-filter: blur(5px);
+}
+
+.place {
+  text-align: center;
+  font-size: 65px;
+}
+
+.time-day-date {
+  text-align: center;
   display: flex;
   flex-direction: row;
 }
 
-.flex-container-time {
+.time {
   flex: 1;
 }
 
-.flex-container-day {
+.day {
   flex: 1;
 }
 
-.flex-container-date {
+.date {
   flex: 1;
 }
 
-.flex-container-icon-name {
+.icon-name {
   background: rgba(46, 53, 56, 0.5);
   backdrop-filter: blur(5px);
   flex: 1;
@@ -79,33 +74,31 @@
 .flex-container-weatherdetails {
   display: flex;
   flex-direction: column;
-  background: rgba(17, 56, 71, 0.5);
-  width: 40%;
+  background-color: rgb(231, 233, 233);
+  flex-basis: 40%;
+  color: black;
 }
 
-.flex-container-heading {
+.heading {
   flex: 1;
   font-size: 80px;
   padding-top: 50px;
   text-align: center;
 }
 
-.flex-container-details {
+.details {
   display: flex;
+  flex-direction: column;
   flex: 2;
+  font-size: 35px;
+  flex-wrap: nowrap;
+}
+
+.detailvalue {
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
   flex-direction: row;
-}
-
-.flex-container-detailname {
-  flex: 1;
-  font-size: 35px;
-  text-align: center;
-  line-height: 60px;
-}
-
-.flex-container-detailvalue {
-  flex: 1;
-  font-size: 35px;
-  text-align: center;
-  line-height: 60px;
+  justify-content: space-between;
+  margin: 10px;
 }
