@@ -2,9 +2,10 @@ button {
   margin: auto;
   margin-top: block;
   margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 20px;
   padding: 20px 10px;
-  width: 98%;
+  width: 100%;
   font-size: 40px;
   font-weight: bold;
   border-radius: 7px;
